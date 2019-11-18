@@ -5,7 +5,8 @@
 Python module to prevent macOS system sleep using the `caffeinate(1)` command
 
 ### Introduction to `caffeinate(1)`
-macOS users can prevent system sleep using the `caffeinate` like so:
+
+macOS users can prevent system sleep using the system command `caffeinate` like so:
 
 ```console
 $ caffeinate sh -c "echo sleeping; sleep 60; echo done"
@@ -24,7 +25,7 @@ done
 
 This module allows `caffeinate` to be used programmatically from Python code to prevent system sleep, without having to run the command externally.
 
-## Example usage:
+## Example usage
 
 ```python
 def main():
