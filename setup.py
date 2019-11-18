@@ -17,7 +17,7 @@ setup(name=about["__title__"],
       url="TBD",
       license="MIT",
       packages=['selfcaffeinate'],
-      python_requires='>=3.7',
+      python_requires='>=2.7',
       install_requires=[],
       package_data={'selfcaffeinate': ['config/*']},
       )
