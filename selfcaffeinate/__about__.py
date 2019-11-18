@@ -1,6 +1,6 @@
 __title__ = "selfcaffeinate"
 __version__ = "0.1.0.dev0"
-__summary__ = "Python module to prevent smacOS system sleep using the caffeinate(1) command"
+__summary__ = "Python module to prevent macOS system sleep using the caffeinate(1) command"
 
 """
 See PEP 440 for version scheme
