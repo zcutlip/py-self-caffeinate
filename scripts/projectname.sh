@@ -1,1 +1,1 @@
-PROJECT_NAME="py-self-caffeinate"
+PROJECT_NAME="selfcaffeinate"
